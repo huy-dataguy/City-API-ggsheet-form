@@ -50,7 +50,10 @@ This project is a web form that collects user information, including name, gende
    - **Execute As**: Set to Me
    - **Who has access**: Set to Anyone
 4. Click **Deploy**.
-5. Remember to copy and save the web app URL for later use in <form method="POST" action="YOUR_WEBAPP_URL">
+5. Remember to copy and save the web app URL. You will need to replace `YOUR_WEBAPP_URL` in your HTML form with this URL:
+
+```html
+<form method="POST" action="YOUR_WEBAPP_URL">
 
 ### Conclusion
 
